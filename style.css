@@ -1,0 +1,24 @@
+* {
+padding: 0;
+margin: 0;
+ }
+
+body {
+  background: gray;
+}
+.container{
+  display:flex;
+  height: 800px;
+  width: 800px;
+  flex-direction: column;
+  
+}
+.column {
+  display: flex;
+  flex: 1;
+}
+.box {
+  border: 1px solid blue;
+  background: red;
+  flex: 1 0 auto;
+}
