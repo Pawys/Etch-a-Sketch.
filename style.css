@@ -2,14 +2,33 @@
 padding: 0;
 margin: 0;
  }
+ html {
+   height: 100%;
+ }
 
 body {
-  background: gray;
+  background: #d71f29;
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+main{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
 }
 .container{
   display:flex;
-  height: 800px;
-  width: 800px;
+  height: 700px;
+  width: 700px;
   flex-direction: column;
   
 }
@@ -25,3 +44,9 @@ body {
 {
   background: #5d5e5b;
 }
+footer {
+  height: 20px;
+  flex-shrink: 0;
+  background-color: #44475a;
+}
+
