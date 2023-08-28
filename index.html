@@ -5,19 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="style.css" rel="stylesheet">
-    <script src="script.js" defer></script>
+    <script src="script.js" defer></script><link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&display=swap" rel="stylesheet"> 
   </head>
   <body>
     <header>
-     Placeholder 
+      <p>Etch a Sketch</p>
     </header>
     <main>
       <button class="btn" onclick="createGrid()">New Grid</button>
-      <div class="container"></div>
+      <div class="thingy">
+        <div class="settings" onclick="rgbClick()">
+          <p class='setting'>RGB</p>
+          <p class='rgb'>off</p>
+        </div>
+        <div class="container"></div>
+        <div class="settings" onclick="darkenClick()">
+          <p class='setting'>DARKEN</p>
+          <p class='darken'>off</p>
+        </div>
+      </div>
     </main>
   
     <footer>
-     Placeholder 
+      Copyleft <span style="display:inline-block; transform: scaleX(-1);">©</span> Pawys
     </footer>
   </body>
 </html>
