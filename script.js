@@ -6,6 +6,9 @@ for (let i = 0; i < boxnumber; i++){
   for (let i = 0; i < boxnumber; i++){
     const div = document.createElement('div');
     div.classList.add('box');
+    div.addEventListener("mouseover", () => {
+      div.classList.add('boxhovered');
+    });
     column.appendChild(div);
   }
   container.appendChild(column);

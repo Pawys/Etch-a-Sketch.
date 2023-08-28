@@ -18,7 +18,10 @@ body {
   flex: 1;
 }
 .box {
-  border: 1px solid blue;
-  background: red;
+  background: #cececc;
   flex: 1 0 auto;
+}
+.boxhovered
+{
+  background: #5d5e5b;
 }
