@@ -1,14 +1,14 @@
-# Rock Paper Scissors
+# Etch A Sketch
 This is the Etch a sketch project from the (amazing) [The Odin Project curriculum](https://www.theodinproject.com/).
 
-Its a etch a sketch made in javascript, featuring a rgb and darken mode. The user can pick how large the grid has to be.
+It's an etch a sketch made in JavaScript, featuring an RGB and darken mode. The user can pick how large the grid has to be.
 
 ![Screenshot](screenshots/etch-a-sketch.png)
 # Skills
 ### After completing it, I learned:
 Making a grid using flexbox.
 
-Getting a random rgb value.
+Getting a random RGB value.
 
 Getting user input using prompts.
 # Tech
@@ -19,6 +19,7 @@ Getting user input using prompts.
 
 [CSS]
 # Live Preview
-See the page in the [Live Preview](https://pawys.github.io/rock-paper-scissors-/)
+See the page in the [Live Preview](https://pawys.github.io/Etch-a-Sketch./)
+
 
 
